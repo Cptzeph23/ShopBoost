@@ -1,0 +1,21 @@
+h1{
+    color: chartreuse;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: black;
+    text-shadow: 10px 4px 10px red;
+    text-decoration: underline;
+}
+h1:hover{
+    background-color: aqua;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+
+}
+img:hover{
+    opacity: 0.8;
+}

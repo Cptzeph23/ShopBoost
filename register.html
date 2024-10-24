@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration page</title>
+    <link rel="icon" href="assets/registration.png">
+    <link rel="stylesheet" href="css/register.css">
+
+    <style>
+        body{
+            background-image: url("assets/background.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+<form action="">
+    <legend>Create an Account!</legend>
+    <br>
+
+    <label for="FName">First Name :</label>
+    <input type="text" id="FName" placeholder="First Name" required="required">
+    <br><br>
+
+    <label for="SName">Surname :</label>
+    <input type="text" id="SName" placeholder="Surname" required="required">
+    <br><br>
+
+    <label for="Email">Email Address :</label>
+    <input type="email" id="Email" placeholder="abc@gmail.com" required="required">
+    <br><br>
+
+    <label for="pwd">Password :</label>
+    <input type="password" id="pwd" placeholder="Enter password" required="required">
+    <br><br>
+
+    <label for="Phone">Phone Number :</label>
+    <input type="tel" id="Phone" placeholder="+2547..." required="required">
+    <br><br>
+
+    <label for="Address">Home Address :</label>
+    <input type="number" id="Address" required="required">
+    <br><br>
+    <label for="file">Choose image :</label>
+    <input type="file" id="file" placeholder="Choose file" required="required">
+    <br><br>
+    <label for="nationality">Nationality :</label>
+    <select name="" id="nationality">
+        <option value="" disabled="disabled">--Choose nationality--</option>
+        <option value="">Kenya</option>
+        <option value="">German</option>
+        <option value="">Italian</option>
+        <option value="">American</option>
+    </select>
+    <br><br>
+
+    <label>Choose gender :</label><br>
+    <input type="radio" id="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="other">
+    <label for="other">Other</label>
+    <br>
+    <label>Hobby</label>
+    <br>
+     <input type="checkbox" id="Footbal">
+    <label for="Footbal">Football</label>
+    <br>
+    <input type="checkbox" id="Hockey">
+    <label for="Hockey">Football</label>
+    <br>
+    <input type="checkbox" id="Chess">
+    <label for="Chess">Chess</label>
+    <br>
+    <label for="message">Describe Yourself</label><br>
+    <textarea name="" id="message" cols="50" rows="5" placeholder="More about yourself..."></textarea>
+    <br><br>s
+    <input type="checkbox" id="agree">
+    <label for="agree">I agree to the terms and conditions</label>
+    <br><br>
+    <button type="submit">Register</button>
+
+
+
+
+</form>
+</body>
+</html>

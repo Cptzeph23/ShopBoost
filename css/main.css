@@ -1,0 +1,33 @@
+h1{
+    color: blue;
+    text-align: center;
+    background-color: brown;
+    line-height: 100px;
+    text-shadow: 12px 4px 12px yellow;
+    font-size: 100px;
+}
+h1:hover{
+    background-color: aqua;
+}
+h3{
+    color: green;
+    text-align: center;
+    background-color: darkred;
+    line-height: 50px;
+    text-shadow: black;
+    font-size: 60px;
+}
+h3:hover{
+    background-color: chartreuse;
+}
+h2{
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    line-height: 40px;
+    text-shadow: darkslategray;
+    font-size: 40px;
+}
+h2:hover{
+    background-color: goldenrod;
+}
